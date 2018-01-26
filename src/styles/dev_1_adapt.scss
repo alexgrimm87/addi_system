@@ -1,0 +1,143 @@
+@media screen and (max-width:1180px) {
+  .services .services_links ul {
+    .link_title h3 {
+      min-height: 75px;
+      padding: 15px 0 15px;
+    }
+    a {
+      padding: 30px 15px 15px;
+    }
+  }
+}
+@media screen and (max-width:992px) {
+  .services .services_links ul {
+    .link_title h3 {
+      min-height: 55px;
+    }
+    li {
+      margin: 10px 5px 0;
+      width: calc(50% - 10px)
+    }
+  }
+  .section_form {
+    overflow: hidden;
+  }
+  .section_form .contact-form-title h2 {
+    font-size: 30px;
+    padding: 40px 0;
+  }
+  .contact-form-row {
+    width: 100%
+  }
+  .contact-form-item {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+  }
+  .form_input input {
+    width: 100%;
+  }
+  .form_button {
+    margin: 0 auto 10px;
+    .button {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+  .section_form .contact-form-title h2 {
+    font-size: 27px;
+  }
+  .main_article .img_wrap {
+    max-width: 400px;
+    padding: 40px 0 40px;
+  }
+  .titles {
+    padding: 20px 10px 65px;
+    h1 {
+      font-size: 33px;
+    }
+  }
+}
+
+@media screen and (max-width:666px) {
+  .services .services_text h2 {
+    padding: 20px 10px;
+    font-size: 25px;
+  }
+  .section_form .contact-form-title h2 {
+    font-size: 25px;
+    padding: 40px 0;
+  }
+  .contact-form-row {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .contact-form-item {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .form_input input {
+    width: 100%;
+  }
+  .form_button {
+    margin: 0 auto 10px;
+    .button {
+      margin: 0 auto;
+    }
+  }
+  .main_article .img_wrap {
+    max-width: 250px;
+    padding: 40px 0 30px;
+  }
+  .titles {
+    padding: 20px 10px 65px;
+    h1 {
+      font-size: 27px;
+    }
+  }
+}
+
+@media screen and (max-width:550px) {
+  .services .services_links ul {
+    .link_title h3 {
+      min-height: 55px;
+    }
+    a {
+      padding: 15px;
+    }
+    li {
+      margin: 10px 0 0;
+      width: 100%;
+    }
+  }
+  .main_article .text_wrap {
+    font-size: 13px;
+    line-height: 1.5;
+    ul {
+      padding-left: 20px;
+    }
+  }
+  .titles {
+    padding: 20px 10px 65px;
+    h1 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (max-width:479px) {
+  .main_article .img_wrap {
+    max-width: 200px;
+    padding: 20px 0 20px;
+  }
+  .titles {
+    padding: 20px 10px 65px;
+    h1 {
+      font-size: 23px;
+    }
+  }
+  .section_form .contact-form-title h2 {
+    font-size: 23px;
+  }
+}

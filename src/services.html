@@ -1,0 +1,77 @@
+//= partials/head.html
+
+<div class="global-wrapper">
+    //= partials/header.html
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+        <section class="section_titles">
+            <div class="bg_shadow"></div>
+            <div class="mbox">
+                <ul class="bread_crumbs">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                </ul> 
+                <div class="titles">
+                    <h1>Услуги</h1>
+                </div>
+            </div>
+        </section>
+        //= partials/services_content.html
+        <section class="section_form">
+            <div class="bg_shadow"></div>
+            <div class="mbox">
+                <div class="form_wrap">
+                    <form action="ajax-programer.php" class="contact-form">
+                        <div class="contact-form-title">
+                            <h2>Оставьте свои контакты, и мы свяжемся с Вами</h2>
+                        </div>
+                        <div class="contact-form-row cfix">
+                            <div class="contact-form-item">
+                                <div class="contact-form-item-input form_row">
+                                    <div class="form_input">
+                                        <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="contact-form-item-input form_row">
+                                    <div class="form_input">
+                                        <input type="text" name="contact_last_name" required="required" value="" placeholder="фамилия">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="contact-form-item-input form_row">
+                                    <div class="form_input">
+                                        <input type="text" name="contact_tel" value="" required="required" placeholder="телефон" class="tel-mask">
+                                        <input type="hidden" name="page" value="Услуги">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-row cfix">
+                            <div class="contact-form-item form_button">
+                                <button type="submit" class="button contact-submit">
+                                    <span>заказать звонок</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- /MAIN -->
+
+    //= partials/hidden-block.html
+    //= partials/footer.html
+
+
+</div>
+
+//= partials/scripts.html
+
+</body>
+</html>

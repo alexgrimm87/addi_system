@@ -1,0 +1,66 @@
+<!-- Begin Contacts -->
+<section class="contacts">
+  <div class="title">
+    <h1>Контакты</h1>
+  </div>
+  <div class="map-wrap">
+    <div id="map" class="contacts-map"></div>
+    <ul class="contact-info">
+      <li>
+        <span class="info-title">Телефон</span>
+        <a href="tel:+30675132093">+3 (067) 51 32 093 </a>  
+      </li>
+      <li>
+        <span class="info-title">E-mail</span>
+        <a href="mailto:9400525@novost.com.ua">9400525@novost.com.ua</a>
+      </li>
+      <li>
+        <span class="info-title">Адрес компании</span>
+        <p>Новый Арбат ул., 15/1, Москва, Россия, 119002</p>
+      </li>
+    </ul>
+  </div>
+  <div class="section_form">
+    <div class="mbox">
+      <div class="form_wrap">
+        <form action="ajax-programer.php" class="contact-form">
+          <div class="contact-form-title">
+            <h2>Связаться с нами</h2>
+          </div>
+          <div class="contact-form-row cfix">
+            <div class="contact-form-item">
+              <div class="contact-form-item-input form_row">
+                <div class="form_input">
+                  <input type="text" name="contact_name" required="required" value="" placeholder="Имя">
+                </div>
+              </div>
+            </div>
+            <div class="contact-form-item">
+              <div class="contact-form-item-input form_row">
+                <div class="form_input">
+                  <input type="text" name="contact_last_name" required="required" value="" placeholder="фамилия">
+                </div>
+              </div>
+            </div>
+            <div class="contact-form-item">
+              <div class="contact-form-item-input form_row">
+                <div class="form_input">
+                  <input type="text" name="contact_tel" value="" required="required" placeholder="телефон" class="tel-mask">
+                  <input type="hidden" name="page" value="Контакты">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-row cfix">
+            <div class="contact-form-item form_button">
+              <button type="submit" class="button contact-submit">
+                <span>заказать звонок</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contacts -->

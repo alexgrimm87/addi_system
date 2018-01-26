@@ -1,0 +1,340 @@
+@media screen and (max-width: 1366px){
+  .info-wrap {
+    .info-inner {
+      max-width: 1200px;
+      .pic {
+        width: 417px;
+        height: 315px;
+      }
+    }
+  }
+}
+//hover
+@media screen and (min-width: 1025px) {
+  .header {
+    .header-inner {
+      .header-left {
+        .header-menu {
+          & > li {
+            &:hover {
+              &:after {
+                border-color: #1ba0d7;
+              }
+              ul {
+                display: block;
+              }
+              & > a {
+                color: #1ba0d7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px){
+  .burger {
+    display: block;
+  }
+
+  .header {
+    .header-inner {
+      .header-left {
+        .header-menu {
+          z-index: 1;
+          display: none;
+          flex-direction: column;
+          justify-content: center;
+          position: fixed;
+          height: 100vh;
+          max-width: 100%;
+          top: 0;
+          right: 0;
+          left: 0;
+          padding: 0 15px;
+          margin-left: 0;
+          text-align: center;
+          background: white;
+          overflow-x: hidden;
+          overflow-y: auto;
+          & > li {
+            cursor: default;
+            margin-right: 0;
+            &.dropdown {
+              &:after {
+                display: none;
+              }
+            }
+            a {
+              font-size: 42px;
+              line-height: 85px;
+              text-transform: uppercase;
+            }
+            ul {
+              display: block;
+              position: static;
+              border: 0;
+              padding: 0;
+              li {
+                a {
+                  line-height: 85px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .header-right {
+        .button {
+          padding: 5px 10px;
+          width: 135px;
+        }
+        .lang-wrap {
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+
+  .main-slider {
+    li {
+      .slide-text {
+        .slide-title {
+          h1,h2,h3 {
+            font-size: 40px;
+            line-height: 52px;
+          }
+        }
+      }
+    }
+  }
+
+  .info-wrap {
+    &.left {
+      .info-inner {
+        flex-direction: column-reverse;
+        .content {
+          margin: 0;
+        }
+      }
+    }
+    .info-inner {
+      flex-direction: column-reverse;
+      align-items: center;
+      .content {
+        margin: 0;
+        .info {
+          h1,h2,h3 {
+            margin-bottom: 15px;
+            font-size: 26px;
+            line-height: 40px;
+            text-align: center;
+          }
+        }
+        .button {
+          margin: 0 auto;
+        }
+      }
+      .pic {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .contacts {
+    .map-wrap {
+      height: auto;
+      .contacts-map {
+        height: 435px;
+      }
+      .contact-info {
+        position: static;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  .header {
+    .header-inner {
+      .header-left {
+        .header-menu {
+          & > li {
+            a {
+              font-size: 32px;
+              line-height: 70px;
+            }
+            ul {
+              li {
+                a {
+                  line-height: 70px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .links-wrap {
+    .main-links {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 666px){
+  .main-slider {
+    li {
+      .slide-text {
+        .slide-title {
+          h1,h2,h3 {
+            font-size: 30px;
+            line-height: 40px;
+          }
+        }
+        .slide-subtitle {
+          font-size: 24px;
+          line-height: 48px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 639px){
+  .header {
+    .header-inner {
+      .header-left {
+        .header-menu {
+          & > li {
+            a {
+              font-size: 15px;
+              line-height: 44px;
+            }
+            ul {
+              li {
+                a {
+                  line-height: 44px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    .footer-inner {
+      flex-direction: column;
+      align-items: center;
+      .footer-left {
+        flex-direction: column;
+        align-items: center;
+        max-width: 215px;
+        margin-bottom: 30px;
+        .footer-col {
+          width: 100%;
+          .logo {
+            margin: 0 auto 30px auto;
+          }
+        }
+      }
+      .footer-right {
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 479px){
+  .burger {
+    right: 15px;
+  }
+  
+  .header {
+    .header-inner {
+      .header-left {
+        margin-left: 0;
+      }
+      .header-right {
+        margin-right: 0;
+        .button {
+          width: 103px;
+          margin-right: 15px;
+        }
+        .lang-wrap {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .main-slider {
+    li {      
+      height:calc(100vh - 91px);
+      .slide-text {
+        .slide-title {
+          h1,h2,h3 {
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+        .slide-subtitle {
+          font-size: 20px;
+          line-height: 40px;
+        }
+        .button {
+          max-width: 213px;
+        }
+      }
+    }
+  }
+
+  .info-wrap {
+    .info-inner {
+      .content {
+        .info {
+          font-size: 13px;
+          h1,h2,h3 {
+            font-size: 20px;
+          }
+        }
+      }
+      .pic {
+        width: 240px;
+        height: 175px;
+      }
+    }
+  }
+
+  .footer {
+    .copyright {
+      a {
+        display: block;
+        max-width: 270px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px){
+  .main-slider {
+    li {      
+      .slide-text {
+        .slide-title {
+          h1,h2,h3 {
+            font-size: 20px;
+            line-height: 30px;
+          }
+        }
+        .slide-subtitle {
+          font-size: 18px;
+          line-height: 38px;
+        }
+      }
+    }
+  }
+}
